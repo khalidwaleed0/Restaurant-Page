@@ -130,13 +130,4 @@ iframe {
 	.card:hover {
 		scale: 1.1;
 	}
-
-	
-
 }
-
-/* @media (orientation: portrait) {
-	.calculator {
-		width: 70%;
-	}
-} */
