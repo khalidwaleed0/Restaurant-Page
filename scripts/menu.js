@@ -25,6 +25,15 @@ const menuContent = `<div id="cards-container">
                         </div>
                         </div>`;
 
+const btnHome = document.getElementById("home");
+const btnMenu = document.getElementById("menu");
+const btnContact = document.getElementById("contact");
+
 export function appendMenuContent() {
-    document.getElementById("content").innerHTML = menuContent;
+    if (!btnMenu.hasAttribute("active")) {
+        btnMenu.setAttribute("active", "");
+        btnHome.removeAttribute("active");
+        btnContact.removeAttribute("active");
+		document.getElementById("content").innerHTML = menuContent;
+	}
 }
