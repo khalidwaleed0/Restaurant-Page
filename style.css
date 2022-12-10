@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 24px;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+}
+
+h1 {
+	font-family: "Tangerine";
+	font-size: 96px;
+}
+
+main {
+	background-image: url("/images/restaurant.jpg");
+}
+
+button {
+    padding: 16px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: white;
+    font-family: 'Tangerine';
+    font-size: 36px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    margin-top: -12px;
+}
+
