@@ -1,4 +1,3 @@
-console.log(7);
 const homeContent = `<p>Best Ramen in Japan</p>
                         <br />
                         <p>This is where the 7th Hokagi used to eat.</p>
