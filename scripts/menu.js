@@ -1,18 +1,18 @@
 const menuContent = `<div id="cards-container">
                         <div class="card">
-                        <img src="/images/food/ramen.jpeg" alt="Ramen">
+                        <img src="images/food/ramen.jpeg" alt="Ramen">
                         <p>Ramen</p>
                         </div>
                         <div class="card">
-                        <img src="/images/food/udon.jpeg" alt="Udon">
+                        <img src="images/food/udon.jpeg" alt="Udon">
                         <p>Udon</p>
                         </div>
                         <div class="card">
-                        <img src="/images/food/tofu.jpeg" alt="Tofu">
+                        <img src="images/food/tofu.jpeg" alt="Tofu">
                         <p>Tofu</p>
                         </div>
                         <div class="card">
-                        <img src="/images/food/Onigiri.jpeg" alt="Onigiri">
+                        <img src="images/food/Onigiri.jpeg" alt="Onigiri">
                         <p>Onigiri</p>
                         </div>
                         <div class="card">
@@ -20,7 +20,7 @@ const menuContent = `<div id="cards-container">
                         <p>Miso Soup</p>
                         </div>
                         <div class="card">
-                        <img src="/images/food/mentaiko.jpeg" alt="Mentaiko">
+                        <img src="images/food/mentaiko.jpeg" alt="Mentaiko">
                         <p>Mentaiko</p>
                         </div>
                         </div>`;
